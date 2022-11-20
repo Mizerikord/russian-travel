@@ -243,9 +243,6 @@
     text-decoration: underline;
 }
 
-.place__paragraph-conteiner{
-}
-
 .place__paragraph{
     margin: 0px;
     font-size: 18px;
@@ -419,9 +416,6 @@
     }
     .header__lang-conteiner{
         margin-right: 24px;
-    }
-
-    .main{
     }
 
     .lead__image{

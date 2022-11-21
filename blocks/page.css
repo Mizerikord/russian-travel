@@ -1,5 +1,3 @@
-/* проверить свг на уменьшение размера */
-
 :root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   :root { font-family: 'Inter var', sans-serif; }
@@ -14,12 +12,7 @@
     align-items: center;
     color: #ffffff;
     font-family: Inter;
-    border: 1px solid red;
 }
-/* .conteiner{
-    max-width: 1280px;
-    outline: 1px solid red;
-} */
 
 .link{
     text-decoration: none;
@@ -39,8 +32,6 @@
 }
 
 .header__logo{
-    width: 176px;
-    height: 52px;
     align-self: center;
     justify-self: start;
     margin-left: 48px;
@@ -58,8 +49,6 @@
 }
 
 .header__lang-link{
-    text-decoration: none;
-    color: #ffffff;
     margin-left: 18px;
     font-size: 24px;
     font-weight: 400;
@@ -69,7 +58,6 @@
 }
 
 .header__lang-link:hover{
-    text-decoration: none;
     text-decoration: underline;
 }
 
@@ -86,10 +74,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 984px;
 }
 
 .lead__title{
-    margin: 0;
+    margin: 0px;
     font-size: 96px;
     line-height: 100px;
     font-weight: 900;
@@ -111,8 +100,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 64px;
-    min-height: 615px;
-    min-width: 984px;
+    width: 100%;
+    height: 615px;
 }
 
 .lead__caption{
@@ -297,8 +286,6 @@
     line-height: 76px;
     letter-spacing: 0em;
     text-align: center;
-    top: 254px;
-    left: 50%;
 }
 
 .cover__subtitle{
@@ -342,7 +329,6 @@
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
-    text-align: right;
     justify-self: end;
 
 }
@@ -359,12 +345,13 @@
 
     .lead{
         margin-top: 48px;
+        width: 928px;
     }
 
     .lead__image{
+        width: 100%;
+        height: 580px;
         margin-top: 56px;
-        min-width: 928px;
-        max-height: 580px;
         background-image: url(../images/kalegin-michail_1024.jpg);
     }
 
@@ -418,10 +405,13 @@
         margin-right: 24px;
     }
 
+    .lead{
+        width: 768px;
+    }
+
     .lead__image{
-        min-width: 768px;
-        min-height: 480px;
-        background-image: url(../images/kalegin-michail_1024.jpg);
+        height: 480px;
+        background-image: url(../images/kalegin-michail_768.jpg);
     }
 
     .lead__caption{
@@ -462,7 +452,6 @@
     .place{
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         gap: 48px 28px;
-
     }
 
     .place__title{
@@ -497,6 +486,7 @@
         min-width: 720px;
     }
 }
+
 @media (min-width: 320px) and (max-width: 767px){
     .page{
         max-width: 320px;
@@ -520,6 +510,7 @@
     
     .lead{
         margin-top: 48px;
+        width: 320px;
     }
 
     .lead__title{
@@ -537,8 +528,7 @@
     .lead__image{
         background-image: url(../images/kalegin-michail_320.jpg);
         margin-top: 40px;
-        min-width: 320px;
-        min-height: 200px;
+        height: 200px;
     }
     .lead__caption{
         margin: 8px 0px 0px 16px;

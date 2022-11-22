@@ -1,8 +1,5 @@
-.intro__list{
+.intro__lists{
     margin: 33px auto 0px;
-    font-family: 'Inter-Bold';
-    font-size: 12px;
-    line-height: 18px;
     text-align: left;
     align-self: start;
     list-style-type: none;

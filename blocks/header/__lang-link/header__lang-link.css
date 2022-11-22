@@ -1,0 +1,11 @@
+.header__lang-link{
+    margin-left: 18px;
+    font-size: 24px;
+    font-family: 'Inter-Regular';
+    line-height: 28px;
+    text-align: right;
+}
+
+.header__lang-link:first-child{
+    text-decoration: underline;
+}

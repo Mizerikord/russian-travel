@@ -1,0 +1,28 @@
+.cover{
+    margin-top: 92px;
+    background-image: url(../../../russian-travel/images/__background.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    max-height: 740px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .cover{
+        min-height: 640px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .cover{
+        max-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .cover{
+        max-width: 320px;
+        min-height: 200px;
+    }
+}

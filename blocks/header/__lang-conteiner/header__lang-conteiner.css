@@ -1,0 +1,17 @@
+.header__lang-conteiner{
+    align-self: center;
+    justify-self: end;
+    margin-right: 48px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .header__lang-conteiner{
+        margin-right: 24px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .header__lang-conteiner{
+        margin-right: 16px;
+    }
+}

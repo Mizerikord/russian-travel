@@ -1,9 +1,15 @@
-.footer__links{
+.footer__list{
+    width: 100%;
     justify-self: start;
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 @media (min-width: 320px) and (max-width: 767px){
-    .footer__links{
+    .footer__list{
         display: flex;
         flex-direction: column;
         gap: 32px;

@@ -1,0 +1,16 @@
+.lead__route{
+    width: 100%;
+    margin: 64px 0 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .lead__route{
+        margin-top: 56px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .lead__route{
+        margin-top: 40px;
+    }
+}

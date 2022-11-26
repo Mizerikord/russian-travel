@@ -1,9 +1,14 @@
 .footer__link{
     text-decoration: none;
-    color: #ffffff;
-    margin-right: 18px;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     line-height: 18px;
-    text-align: left;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .footer__link{
+        font-size: 24px;
+        line-height: 24px;
+    }
 }

@@ -1,17 +1,20 @@
-.header__lang-conteiner{
+.header__lang-container{
     align-self: center;
-    justify-self: end;
     margin-right: 48px;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 18px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
-    .header__lang-conteiner{
-        margin-right: 24px;
+    .header__lang-container{
+        margin-right: 0;
     }
 }
 
 @media (min-width: 320px) and (max-width: 767px){
-    .header__lang-conteiner{
+    .header__lang-container{
         margin-right: 16px;
     }
 }

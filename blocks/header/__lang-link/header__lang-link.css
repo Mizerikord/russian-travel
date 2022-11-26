@@ -1,11 +1,14 @@
 .header__lang-link{
-    margin-left: 18px;
+    font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 400;
     font-size: 24px;
-    font-family: 'Inter-Regular';
     line-height: 28px;
     text-align: right;
 }
 
-.header__lang-link:first-child{
-    text-decoration: underline;
+@media (min-width: 320px) and (max-width: 767px){
+    .header__lang-link{
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

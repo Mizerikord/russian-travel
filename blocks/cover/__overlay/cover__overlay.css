@@ -8,17 +8,19 @@
     align-items: center;
     text-decoration: none;
     color: #ffffff;
-    background-image: url(../../../../russian-travel/images/__background.jpg);
-    background-position: center center;
+    background-image: url(../../../images/__background.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    box-sizing: border-box;
 }
 
 .cover__overlay::before{
     content: "";
-    background-color: rgba(42, 44, 47, 0.3);
-    transition-property: background-color;
+    background-color: rgba(42, 44, 47);
+    opacity: 0.3;
+    transition-property: opacity;
     transition-duration: 1.5s;
     position: absolute;
     top: 0;
@@ -27,8 +29,9 @@
     right: 0;
 }
 
-.cover:hover .cover__overlay::before{
-    background-color: rgba(42, 44, 47, 0.8);
+.cover__overlay:hover::before{
+    background-color: rgba(42, 44, 47);
+    opacity: 0.8;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px){
@@ -46,5 +49,6 @@
 @media (min-width: 320px) and (max-width: 767px){
     .cover__overlay{
         min-height: 200px;
+        gap: 16px;
     }
 }

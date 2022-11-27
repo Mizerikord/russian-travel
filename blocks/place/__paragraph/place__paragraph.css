@@ -7,23 +7,15 @@
     text-align: left;
 }
 
-.place__paragraph:nth-child(n+2){
-    margin-top: 26px;
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
+@media (max-width: 1023px){
     .place__paragraph{
         font-size: 16px;
         line-height: 26px;
-    }
-    .place__paragraph:nth-child(n+2){
-        margin-top: 25px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 767px){
     .place__paragraph{
-        font-size: 16px;
         max-width: 288px;
         margin: auto 16px;
     }

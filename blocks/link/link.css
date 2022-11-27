@@ -1,10 +1,9 @@
 .link{
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .link:hover{
     opacity: 0.8;
-    transition-property: opacity;
-    transition-duration: 0.5s;
 }

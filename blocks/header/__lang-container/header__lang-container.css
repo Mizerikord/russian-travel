@@ -10,6 +10,6 @@
 
 @media (min-width: 320px) and (max-width: 767px){
     .header__lang-container{
-        margin: 14px 0x 8px 0;
+        margin: 14px 0 8px 0;
     }
 }

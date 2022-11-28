@@ -2,6 +2,8 @@
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 .link:hover{
